@@ -63,9 +63,9 @@ elif [ $MODULE_TYPE -eq 3 ]; then
     fi
 fi
 
-if [ $API -le 23 ]; then
+if [ $API -le 22 ]; then
     ui_print " x Minimum requirements doesn't meet"
-    ui_print " x Android version: 7.0+"
+    ui_print " x Android version: 6.0+"
     exit 1
 fi
 
